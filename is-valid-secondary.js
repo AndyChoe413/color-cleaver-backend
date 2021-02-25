@@ -1,7 +1,10 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-
+const isValidSecondary = color => {
+  if (color === 'orange' || color === 'green' || color === 'purple') return true;
+  else return false;
+}
 
 
 
